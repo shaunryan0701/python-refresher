@@ -15,7 +15,7 @@ while play != "n":
     play = input("Would you like to play? (Y/n) ")
 
 
-# -- The break keyword --
+# -- The break keyword -- better
 
 while True:
     play = input("Would you like to play? (Y/n) ")
