@@ -1,7 +1,6 @@
 def add(x, y):
     return x + y
 
-
 print(add(5, 7))
 
 # -- Written as a lambda --
@@ -22,7 +21,6 @@ print(add(5, 7))
 
 def double(x):
     return x * 2
-
 
 sequence = [1, 3, 5, 9]
 
