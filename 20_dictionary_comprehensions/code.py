@@ -17,6 +17,8 @@ print(username_mapping["Bob"])  # (0, "Bob", "password")
 username_input = input("Enter your username: ")
 password_input = input("Enter your password: ")
 
+# _ variable name used for variables that we don't want to reference again,
+# essentially a throw away variable
 _, username, password = username_mapping[username_input]
 
 if password_input == password:
