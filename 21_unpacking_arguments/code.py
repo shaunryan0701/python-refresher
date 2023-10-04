@@ -8,6 +8,7 @@ def multiply(*args):
 
 
 print(multiply(3, 5))
+print(multiply(3, 5, 7, 11))
 print(multiply(-1))
 
 # The asterisk takes all the arguments and packs them into a tuple.
@@ -26,6 +27,7 @@ print(add(*nums))  # instead of add(nums[0], nums[1])
 
 
 def add(x, y):
+    print(x, y)
     return x + y
 
 
