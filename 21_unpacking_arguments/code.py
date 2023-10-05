@@ -48,7 +48,7 @@ def multiply(*args):
 
 def apply(*args, operator):
     if operator == "*":
-        return multiply(args)
+        return multiply(*args)
     elif operator == "+":
         return sum(args)
     else:
