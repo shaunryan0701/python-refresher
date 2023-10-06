@@ -24,8 +24,8 @@ bob = Person("Bob", 35)
 print(bob)  # Much nicer
 
 # -- __repr__ --
+# representation
 # The goal of __repr__ is to be unambiguous, and if possible what it outputs should allow us to re-create an identical object.
-
 
 class Person:
     def __init__(self, name, age):
