@@ -1,9 +1,11 @@
 class ClassTest:
     def instance_method(self):
+        # functions that use the object are instance methods
         print(f"Called instance_method of {self}")
 
     @classmethod
     def class_method(cls):
+        # functions that use the class ate class methods
         print(f"Called class_method of {cls}")
 
     @staticmethod
