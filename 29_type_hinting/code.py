@@ -47,6 +47,7 @@ class Book:
         return f"<Book {self.name}, {self.book_type}, weighing {self.weight}g>"
 
     @classmethod
+    # To hint returning the current object -> "Book"
     def hardcover(cls, name: str, page_weight: int) -> "Book":
         return cls(name, cls.TYPES[0], page_weight + 100)
 
