@@ -6,6 +6,8 @@ print(divide(10, 2))
 
 # -- __name__ --
 
+# will print __main__ only from the file being run
+
 print(__name__)
 
 # -- importing with names --
