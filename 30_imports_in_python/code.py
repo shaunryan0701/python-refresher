@@ -38,4 +38,14 @@ print("code.py: ", __name__)
 
 import sys
 
+# Using the sys module to see what modules are currently loaded
+# This is a dictionary where the keys are the module names and the values are the modules themselves.
+# This is how Python keeps track of what has been imported.
+# This is useful for debugging, but it's also useful for understanding how Python handles imports.
+# It's a good way to see what is going on under the hood.
+# It's also a good way to see if a module has already been imported, so you don't import it again.
+# This is important because importing a module can be a slow operation.
+# If you import a module multiple times, it can slow down your program.
+# This is especially true if the module does a lot of work when it is imported.
+
 print(sys.modules)
